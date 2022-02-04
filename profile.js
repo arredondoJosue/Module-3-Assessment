@@ -4,15 +4,17 @@ const getColor = (event) => {
 }
 
 const getPlace = () => {
+    alert('You are about to be redirected to my favorite place. Hold onto your Banthas')
     window.location.href = 'https://www.starwars.com/databank/obi-wan-kenobi'
 }
 
 const getRitual = () => {
+    alert("It's hard to describe my favorite ritural. How about I just show you?")
     window.location.href ='https://media4.giphy.com/media/12Gyz2J1b9SjD2/giphy.gif?cid=ecf05e476llec0s7dbvhf7ajuetvzcx0lc7rpeiv6y7l58l7&rid=giphy.gif&ct=g'
 }
 
 const getHello = (event) => {
-    event.preventDefault()
+    // event.preventDefault()
     alert('H  E  L  L  O   T  H  E  R  E  ;)')
 }
 
